@@ -1,4 +1,4 @@
-select c.name, o.customer_id
+select c.name, o.product_name
 from ORDERS o join CUSTOMERS c
-    on o.customer_id = c.id
+                   on o.customer_id = c.id
 WHERE c.name = 'alexey';
